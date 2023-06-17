@@ -1,0 +1,36 @@
+.footer {
+    background-color: $primary-background-color;
+    font-family: $tertiary-font-family;
+    font-size: 12px;
+
+    h4 {
+    	font-family: $tertiary-font-family;
+    	text-transform: none;
+	    font-size: 14px;
+	    font-weight: 700;
+	    margin-bottom: 15px;
+		color: $secondary-font-color;
+	}
+
+	ul {
+	    margin-bottom: 40px;
+	}
+
+	a {
+	    color: $base-font-color;
+	}
+
+	p {
+	    color: $base-font-color;
+	}
+
+	span {
+	    color: $base-font-color;
+	}
+}
+
+.footer-wrapper {
+	background-color: $primary-background-color;
+    border-top: 1px solid $secondary-font-color;
+    padding: 0;
+}

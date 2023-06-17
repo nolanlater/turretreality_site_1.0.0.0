@@ -1,0 +1,739 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*font*/
+body {
+  font-family: "Merriweather", "Serif";
+  color: #004D7B;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+a {
+  color: #004D7B;
+}
+
+span.thin {
+  font-weight: 300;
+}
+
+.page {
+  padding: 60px 0;
+}
+
+.page-top {
+  padding: 110px 0 60px;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+  font-size: 52px;
+  line-height: 1;
+}
+
+h2 {
+  font-family: "Open sans", "Sans Serif";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Open sans", "Sans Serif";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+h4 {
+  font-family: "Open sans", "Sans Serif";
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.navbar {
+  font-family: "Open sans", "Sans Serif";
+}
+
+.navbar-default {
+  background-color: #004D7B;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  font-family: "Abril Fatface";
+  font-weight: 800;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 0;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand span.thin {
+  font-family: "Open sans", "Sans Serif";
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #f2f2f2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #004D7B;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 800;
+  transition: all 0.3s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: #F7CF44;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li.active > a {
+  background-color: #004D7B;
+  color: #F7CF44;
+}
+.navbar-default .navbar-nav > li.active > a:hover {
+  background-color: transparent;
+  color: #F7CF44;
+}
+.navbar-default .navbar-collapse {
+  background-color: #004D7B;
+  border: none;
+  padding-right: 40px;
+}
+
+.navbar-img {
+  display: block;
+  margin: 0px 25px;
+  margin-top: 20px;
+  width: 25%;
+}
+
+.footer {
+  background-color: #ffffff;
+  font-family: "Roboto Mono";
+  font-size: 12px;
+}
+.footer h4 {
+  font-family: "Roboto Mono";
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.footer ul {
+  margin-bottom: 40px;
+}
+.footer a {
+  color: #004D7B;
+}
+.footer p {
+  color: #004D7B;
+}
+.footer span {
+  color: #004D7B;
+}
+
+.footer-wrapper {
+  background-color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 0;
+}
+
+.service {
+  padding: 35px 0 40px;
+  border-top: 1px solid #004D7B;
+}
+.service h2 {
+  margin-bottom: 15px;
+}
+
+.service-number {
+  font-family: "Abril Fatface";
+  font-size: 100px;
+  color: #004D7B;
+  margin-top: -30px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/*section snippets*/
+.section-snippet {
+  margin-bottom: 20px;
+}
+.section-snippet span {
+  font-family: "Open sans", "Sans Serif";
+  font-weight: 400;
+  display: block;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.section-snippet span.snippet-heading {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.section-snippet span:last-child {
+  margin-bottom: 40px;
+}
+
+/* team member */
+.team-member {
+  padding: 40px 0;
+}
+.team-member::first-of-type {
+  padding-top: 0;
+  border: none;
+}
+
+.team-member-img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/about-us/ceo-profile.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+.team-member-contact {
+  margin-bottom: 40px;
+}
+
+.team-member-desc-heading {
+  margin-bottom: 20px;
+}
+.team-member-desc-heading h4 {
+  margin-bottom: 10px;
+}
+.team-member-desc-heading span {
+  font-size: 18px;
+  color: #004D7B;
+}
+
+/*map*/
+#map {
+  height: 350px;
+  color: #090909;
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.1), 0px 0px 45px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button {
+  font-family: "Open sans", "Sans Serif";
+  border-radius: 0;
+  height: 60px;
+  background-color: #ffffff;
+  color: #004D7B;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.custom-button:hover {
+  background-color: #f2f2f2;
+}
+
+.page {
+  padding: 60px 0;
+}
+
+.main-heading {
+  margin-bottom: 40px;
+}
+
+/* banner section */
+.banner {
+  background-color: #ffffff;
+}
+.banner .container {
+  position: relative;
+}
+.banner h1 {
+  margin-bottom: 20px;
+}
+.banner p {
+  max-width: 470px;
+}
+
+/*who are we section*/
+.who-are-we {
+  background-color: #004D7B;
+}
+.who-are-we h1 {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.who-are-we p {
+  color: #ffffff;
+}
+
+.services {
+  background-color: #ffffff;
+}
+
+/*cta*/
+.cta {
+  background-color: #004D7B;
+}
+
+.cta h1 {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/*about banner*/
+.about-banner {
+  background-color: #ffffff;
+}
+
+.about-heading {
+  position: absolute;
+  top: 35%;
+}
+
+.about-heading h3 {
+  margin-bottom: 10px;
+  color: #004D7B;
+  max-width: 1000px;
+}
+
+/*about-us*/
+.about-us {
+  background-color: #004D7B;
+}
+.about-us h1 {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/* team members */
+.team-members {
+  background-color: #fff;
+  color: #444;
+}
+
+/*address*/
+.address {
+  background-color: #ffffff;
+}
+.address h1 {
+  margin-bottom: 30px;
+}
+.address td {
+  color: #004D7B;
+}
+
+.address-table {
+  color: #fff;
+  border-top: 1px solid #004D7B;
+  margin-bottom: 60px;
+}
+.address-table td {
+  border-bottom: 1px solid #004D7B;
+}
+
+/*email us*/
+.address-wrapper,
+.email-wrapper,
+.form-wrapper,
+.map-wrapper,
+.footer-wrapper {
+  margin: auto;
+}
+
+.email-us {
+  background-color: #004D7B;
+}
+.email-us h1 {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/*prelooader */
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 9999;
+  /* makes sure it stays on top */
+}
+
+#loader {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../images/logo/turret-realty-icon.png);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+/* banner carousel */
+.banner-item {
+  position: absolute;
+  top: 20%;
+}
+.banner-item img {
+  display: block;
+  margin-left: 30%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 100%;
+  margin-top: -50px;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.carousel-control.right {
+  margin-right: 15px; /*to neget the col padding to align with container*/
+  background-color: #004D7B;
+}
+.carousel-control.right i img {
+  margin-top: 12px;
+}
+.carousel-control.left {
+  left: 100%;
+  margin-left: -286px;
+  background-color: #004D7B;
+}
+.carousel-control.left i img {
+  margin-top: 12px;
+}
+.carousel-control a {
+  line-height: 0;
+}
+
+.carousel-indicators {
+  background-color: #ffffff;
+  width: 131px;
+  height: 50px;
+  bottom: 0;
+  left: 100%;
+  margin-left: -100px;
+  top: 100%;
+  margin-top: -50px;
+  padding-top: 14px;
+}
+.carousel-indicators li {
+  background-color: #004D7B;
+  height: 20px;
+  width: 20px;
+}
+.carousel-indicators .active {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 1px;
+  background-color: #F7CF44;
+}
+
+/* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.form-wrapper {
+  font-family: "Roboto Mono";
+  background-color: #fff;
+  color: #ffffff;
+  padding: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+input, textarea {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+input.custom-button {
+  border: none;
+  font-family: "Roboto Mono";
+}
+
+label.local-error {
+  background-color: #FCF8E3;
+  color: #C74581;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding: 3px 20px;
+  border-radius: 2px;
+}
+
+table {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  color: #444;
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+}
+table tr td {
+  padding: 15px 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+table tr td:first-of-type {
+  width: 30%;
+  font-weight: 700;
+}
+
+/* =================  CAROUSEL ANIMATION DELAY ===================== */
+.delay-1 {
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.delay-2 {
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.delay-3 {
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+.delay-4 {
+  -webkit-animation-delay: 1500ms;
+  -moz-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+
+.delay-5 {
+  -webkit-animation-delay: 3000ms;
+  -moz-animation-delay: 3000ms;
+  animation-delay: 3000ms;
+}
+
+@media (min-width: 400px) {
+  .banner-item {
+    top: 30%;
+  }
+  .about-heading {
+    top: 40%;
+  }
+  .form-wrapper {
+    padding: 30px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  h2 {
+    font-family: "Open sans", "Sans Serif";
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+  .page {
+    padding: 80px 0;
+  }
+  .navbar-default {
+    background-color: transparent;
+  }
+  .navbar-default .navbar-brand {
+    padding: 20px 40px;
+  }
+  .banner-item {
+    top: 35%;
+  }
+  .banner-item img {
+    margin-top: -10px;
+  }
+  .about-us p {
+    color: #e6e6e6;
+  }
+  .service-number {
+    font-size: 140px;
+  }
+  .address-wrapper,
+  .email-wrapper,
+  .form-wrapper,
+  .map-wrapper,
+  .footer-wrapper {
+    max-width: 100%;
+    margin: 0;
+  }
+  .address-table {
+    max-width: 350px;
+  }
+  .form-wrapper {
+    padding: 40px;
+  }
+  .email-us h1 {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 62px;
+  }
+  .banner-item img {
+    margin-top: -25px;
+  }
+  .about-us h1 {
+    margin-bottom: 60px;
+  }
+  .page-top {
+    padding: 200px 0 60px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 48px;
+    padding: 40px;
+  }
+  .team-member-img, .team-member-contact {
+    max-width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner-item img {
+    margin-top: -55px;
+  }
+  .about-heading {
+    top: 35%;
+  }
+}
